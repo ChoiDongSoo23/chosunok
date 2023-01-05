@@ -252,12 +252,12 @@ body.has-topBanner .billboard-hero {
         display: inline-block;
     }
     .billboard-hero .btn-icon .icon1{
-        background-image: url(../images/main_photo/left_btn.png) ;
+        background-image: url(../images/main_logo/left_btn.png) ;
         background-position: center;
         background-repeat: no-repeat;
     }
     .billboard-hero .btn-icon .icon2{
-        background-image: url(../images/main_photo/right_btn.png) ;
+        background-image: url(../images/main_logo/right_btn.png) ;
         background-position: center;
         background-repeat: no-repeat;
     }
