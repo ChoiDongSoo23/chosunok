@@ -22,9 +22,3 @@ $('.filtering').slick({
       filtered = false;
     }
   });
- $(function(){
-$(".rightimg img").cover(function(){
-$(".right img img").show()
-});
- });
- 
