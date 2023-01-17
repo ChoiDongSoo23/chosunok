@@ -1343,9 +1343,23 @@ padding-top: 184px;}
 }
 .special_yut_left_box{
     float: left;
+    overflow: hidden;
+}
+.special_yut_left_box a img{
+    transition: transform 1s;
+}
+.special_yut_left_box a img:hover{
+    transform: scale(1.2);
 }
 .special_yut_right_box{
     float: right;
+    overflow: hidden;
+}
+.special_yut_right_box a img{
+    transition: transform 1s;
+}
+.special_yut_right_box a img:hover{
+    transform: scale(1.2);
 }
 .special_yut_all_text_box{
     width: 1320px;
@@ -1395,9 +1409,23 @@ float: right;
 }
 .special_songpyeon_left_box{
     float: left;
+    overflow: hidden;
+}
+.special_songpyeon_left_box a img{
+    transition: transform 1s;
+}
+.special_songpyeon_left_box a img:hover{
+    transform: scale(1.2);
 }
 .special_songpyeon_right_box{
     float: right;
+    overflow: hidden;
+}
+.special_songpyeon_right_box a img{
+    transition: transform 1s;
+}
+.special_songpyeon_right_box a img:hover{
+    transform: scale(1.2);
 }
 .special_songpyeon_all_text_box{
     width: 1320px;
@@ -1448,9 +1476,23 @@ float: right;
 }
 .special_hanbok_left_box{
     float: left;
+    overflow: hidden;
+}
+.special_hanbok_left_box a img{
+    transition: transform 1s;
+}
+.special_hanbok_left_box a img:hover{
+    transform: scale(1.2);
 }
 .special_hanbok_right_box{
     float: right;
+    overflow: hidden;
+}
+.special_hanbok_right_box a img{
+    transition: transform 1s;
+}
+.special_hanbok_right_box a img:hover{
+    transform: scale(1.2);
 }
 .special_hanbok_all_text_box{
     width: 1320px;
@@ -1501,9 +1543,23 @@ float: right;
 }
 .special_makgulri_left_box{
     float: left;
+    overflow: hidden;
+}
+.special_makgulri_left_box a img{
+    transition: transform 1s;
+}
+.special_makgulri_left_box a img:hover{
+    transform: scale(1.2);
 }
 .special_makgulri_right_box{
     float: right;
+    overflow: hidden;
+}
+.special_makgulri_right_box a img{
+    transition: transform 1s;
+}
+.special_makgulri_right_box a img:hover{
+    transform: scale(1.2);
 }
 .special_makgulri_all_text_box{
     width: 1320px;

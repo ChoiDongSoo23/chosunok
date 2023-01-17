@@ -1343,9 +1343,23 @@ padding-top: 184px;}
 }
 .special_cheomseongdae_left_box{
     float: left;
+    overflow: hidden;
+}
+.special_cheomseongdae_left_box a img{
+    transition: transform 1s;
+}
+.special_cheomseongdae_left_box a img:hover{
+    transform: scale(1.2);   
 }
 .special_cheomseongdae_right_box{
     float: right;
+    overflow: hidden;
+}
+.special_cheomseongdae_right_box a img{
+    transition: transform 1s;
+}
+.special_cheomseongdae_right_box a img:hover{
+    transform: scale(1.2);   
 }
 .special_cheomseongdae_all_text_box{
     width: 1320px;
@@ -1389,9 +1403,23 @@ float: right;
 }
 .special_bulguksa_left_box{
     float: left;
+    overflow: hidden;
+}
+.special_bulguksa_left_box a img{
+    transition: transform 1s;
+}
+.special_bulguksa_left_box a img:hover{
+    transform: scale(1.2);   
 }
 .special_bulguksa_right_box{
     float: right;
+    overflow: hidden;
+}
+.special_bulguksa_right_box a img{
+    transition: transform 1s;
+}
+.special_bulguksa_right_box a img:hover{
+    transform: scale(1.2);   
 }
 .special_bulguksa_all_text_box{
     width: 965px;
@@ -1436,9 +1464,23 @@ float: right;
 }
 .special_bomunjung_left_box{
     float: left;
+    overflow: hidden;
+}
+.special_bomunjung_left_box a img{
+    transition: transform 1s;
+}
+.special_bomunjung_left_box a img:hover{
+    transform: scale(1.2);   
 }
 .special_bomunjung_right_box{
     float: right;
+    overflow: hidden;
+}
+.special_bomunjung_right_box a img{
+    transition: transform 1s;
+}
+.special_bomunjung_right_box a img:hover{
+    transform: scale(1.2);   
 }
 .special_bomunjung_all_text_box{
     width: 1320px;
@@ -1481,15 +1523,29 @@ float: right;
     margin-bottom: 70px;
     position: relative;
 }
-.special_hwangridangil_left_box{
+.special_hwangridangili_left_box{
    position: absolute;
    left: 0;
    top: 0;
+   overflow: hidden;
+}
+.special_hwangridangil_left_box a img{
+    transition: transform 1s;
+}
+.special_hwangridangil_left_box a img:hover{
+    transform: scale(1.2);   
 }
 .special_hwangridangil_right_box{
    position: absolute;
    right: 0;
    top: 0;
+   overflow: hidden;
+}
+.special_hwangridangil_right_box a img{
+    transition: transform 1s;
+}
+.special_hwangridangil_right_box a img:hover{
+    transform: scale(1.2);   
 }
 .special_hwangridangil_all_text_box{
     width: 1320px;
