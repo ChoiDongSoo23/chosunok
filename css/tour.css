@@ -1242,7 +1242,7 @@ color: #707070;
     width: 1320px;
     height: 400px;
     margin: 0 auto;
-    background-image: url(../images/tour/tour_banner.png);
+    background-image: url(../sub_images/tour/tour_banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1269,13 +1269,13 @@ padding-top: 184px;}
     overflow: hidden;/* scale로 커진부분 내용안보이게!!!!*/
 }
 #section1 ul li:nth-child(1){
-    background-image: url(../images/tour/tour_cheomseongdae.png);
+    background-image: url(../sub_images/tour/tour_cheomseongdae.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #section1 ul li:nth-child(2){
-    background-image: url(../images/tour/tour_bulguksa.png);
+    background-image: url(../sub_images/tour/tour_bulguksa.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1295,13 +1295,13 @@ padding-top: 184px;}
     overflow: hidden;/* scale로 커진부분 내용안보이게!!!!*/
 }
 #section2 ul li:nth-child(1){
-    background-image: url(../images/tour/tour_bomunjung.png);
+    background-image: url(../sub_images/tour/tour_bomunjung.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 #section2 ul li:nth-child(2){
-    background-image: url(../images/tour/tour_hwangridangil.png);
+    background-image: url(../sub_images/tour/tour_hwangridangil.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
