@@ -5,6 +5,7 @@ a{
     color: #fff;
 }
 body{
+position: relative;
 font-family: 'Chosunilbo_myungjo';
 font-size: 14px;
 line-height: 24px;

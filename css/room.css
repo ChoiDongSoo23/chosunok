@@ -1,7 +1,7 @@
 @charset "UTF-8";
 *{margin: 0;padding: 0;}
 ul,ol{list-style: none;}
-body{
+body{position: relative;
 font-family: 'Chosunilbo_myungjo';
 font-size: 14px;
 line-height: 24px;
@@ -1377,8 +1377,11 @@ color: #707070;
     padding-top: 25px;
 }
 
-span{
+.in{
     padding-left: 12px;
+}
+.on{
+    margin-left: 177px;
 }
 .main_right_text1{
     position: absolute;
@@ -1532,13 +1535,13 @@ background-color: #012346;
     border-top: 1px solid #707070;
 }
 .sukgulam_footer_text{
-    padding: 14px 0 65px 165px;
+    padding: 14px 0 0px 165px;
 }
 .sukgulam_footer_text_wrap1{
     border-top: 1px solid #707070;
 }
 .sukgulam_footer_text1{
-    padding: 14px 0 95px 165px;
+    padding: 14px 0 0px 165px;
 }
 .sukgulam_text_footer{
     margin: 0 auto;

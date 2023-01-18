@@ -1,7 +1,7 @@
 @charset "UTF-8";
 *{margin: 0;padding: 0;}
 ul,ol{list-style: none;}
-body{
+body{position: relative;
 font-family: 'Chosunilbo_myungjo';
 font-size: 14px;
 line-height: 24px;
@@ -1255,14 +1255,13 @@ text-align: center;
 }
 #origin_wrap{
     background-color: #F9F7F4;
+   
 }
 .origin{
     width: 1320px;
-    height: 557px;
     margin: 0 auto;
 }
-.origin_all_box{
-height: 423px;
+.origin_all_box{ overflow: hidden;
 width: 1090px;
 padding:60px 67px 67px 32px;
 }
