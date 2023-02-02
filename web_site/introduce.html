@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1320">
+    <title>ChoSunOk</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="stylesheet" href="css/introduce.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/introduce.js"></script>
+    <script src="js/click_fade.js"></script>
+    <script src="js/submenu.js"></script>
+    <script src="js/login_popup.js"></script>
+
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div id="top">
+        <ul class="link">
+            <li>
+                <p class="popup_open">로그인</p>
+
+                <!--popup_S-->
+                <div class="popup_wrap">
+                    <div class="popup">
+                        <p class="popup_top_text">로그인</p>
+                        <div class="popup_all_box">
+                            <div class="left_popup">
+                                <img src="images/main_picture/login_picture.png" alt="">
+                            </div>
+                            <div class="right_popup">
+                                <p class="right_popup_text1">
+                                    로그인
+                                </p>
+                                <form action="">
+                                    <table>
+                                        <td class="td1">
+                                            <input type="text" style="width: 200px;" placeholder="아이디를 입력해주세요">
+                                        </td>
+                                        <td class="td2">
+                                            <input type="text" style="width: 200px;" placeholder="비밀번호를 입력해주세요">
+                                        </td>
+                                        <td class="td3">
+                                            <input type="checkbox">
+                                            <label for="" class="space">아이디저장</label>
+                                        </td>
+                                    </table>
+                                </form>
+                                <a href="#">
+                                    <div class="right_popup_text2_wrap">
+                                        <p class="right_popup_text2">로그인
+                                        </p>
+                                    </div>
+                                </a>
+
+                                <p class="right_popup_text3"><a href="#">아이디찾기 / 비밀번호 변경</a></p>
+
+
+                                <div class="naver_logo_wrap"><a
+                                        href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com"
+                                        target="_blank" title="네이버 로그인 이동">
+                                        <div class="naver_logo_left">
+                                            <img src="images/main_picture/naver-logo.png" alt="">
+                                        </div>
+                                        <div class="naver_logo_right">
+                                            <p class="naver_logo_text">네이버 아이디로 로그인</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="kakao_logo_wrap">
+                                    <a href="https://accounts.kakao.com/login/?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo"
+                                        target="_blank" title="카카오 로그인 이동">
+
+                                        <div class="kakao_logo_left">
+                                            <img src="images/main_picture/kakao-logo.png" alt="">
+                                        </div>
+                                        <div class="kakao_logo_right">
+                                            <p class="kakao_logo_text">카카오 아이디로 로그인</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="close_btn">X</button>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p class="popup_open1">회원가입</p>
+
+                <!--popup_S-->
+                <div class="popup_wrap1">
+                    <div class="popup1">
+                        <p class="popup_top_text1">회원가입</p>
+                        <div class="popup_all_box1">
+                            <div class="left_popup1">
+                                <img src="images/main_picture/join_picture.png" alt="">
+                            </div>
+                            <div class="right_popup1">
+                                <p class="right_popup_min_text1">
+                                    회원가입
+                                </p>
+                                <div class="right_popup_min_text2_wrap">
+                                    <p class="right_popup_min_text2">
+                                        조선옥 한옥 호텔은 회원가입시 본인확인을 받고 있습니다. <br>
+                                        휴대폰인증,E-mail인증,아이핀인증을 통해 본인확인 해주시길 바랍니다
+                                </div>
+                                </p>
+                                <div class="right_all_logo_box">
+                                    <div class="right_logo_box1">
+                                        <img src="images/main_logo/join_phone_logo.png" alt="">
+                                        <div class="right_logo_text1_box"><a
+                                                href="https://nice.checkplus.co.kr/CheckPlusSafeModel/service.cb?m=authMobileMain"
+                                                target="_blank" title="휴대폰인증 이동">
+                                                <p class="right_logo_text1">휴대폰 인증</p>
+                                            </a></div>
+                                    </div>
+                                    <div class="right_logo_box2">
+                                        <img src="images/main_logo/Join_latter_logo.png" alt="">
+                                        <div class="right_logo_text2_box"><a href="#">
+                                                <p class="right_logo_text2">E-maril 인증</p>
+                                            </a></div>
+                                    </div>
+                                    <div class="right_logo_box3">
+                                        <img src="images/main_logo/Join_ipin_logo.png" alt="">
+                                        <div class="right_logo_text3_box"><a href="https://cert.vno.co.kr/login/main
+                      " target="_blank" title="아이핀인증 이동">
+                                                <p class=" right_logo_text3">아이핀 인증</p>
+                                            </a></div>
+                                    </div>
+                                </div>
+                                <div class="right_footer_text_box">
+                                    <p class="right_footer_text">
+                                        회원가입으로 객실 예약 및 다양한 서비스를 이용 받아보세요</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="close_btn1">X</button>
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p class="popup_open2">예약확인</p>
+
+                <!--popup_S-->
+                <div class="popup_wrap2">
+                    <div class="popup2">
+                        <p class="popup_top_text2">예약확인</p>
+                        <div class="popup_all_box2">
+                            <div class="left_popup2">
+                                <img src="images/main_picture/reservation.picture.png" alt="">
+                            </div>
+                            <div class="right_popup2">
+                                <p class="right_popup_min_text2">
+                                    예약확인
+                                </p>
+                                <div class="reservation_text_wrap">
+                                    <p class="reservation_text">예약번호</p>
+                                </div>
+                                <div class="reser_wrap"><a href="#">
+                                        <p class="reser_text">예약 내역 조회</p>
+                                    </a>
+                                </div>
+
+                                <table>
+                                    <tr>
+                                        <td class="tt1">
+                                            <input type="text" style="width: 250px;" placeholder="예약번호를 입력해주세요">
+                                        </td>
+                                        <td class="tt2">
+                                            <input type="text" style="width: 110px;" placeholder="성">
+                                        </td>
+                                        <td class="tt3">
+                                            <input type="text" style="width: 110px;" placeholder="이름">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <select name="" id="">
+                                                <option value="">010</option>
+                                                <option value="">011</option>
+                                                <option value="">016</option>
+                                                <option value="">031</option>
+                                                <option value="">051</option>
+                                                <option value="">055</option>
+                                                <option value="">02</option>
+                                            </select>
+                                            <p class="tt5">-</p>
+                                            <input type="text" style="width: 60px;" class="tt6">
+                                            <p class="tt7">-</p>
+                                            <input type="text" style="width: 60px;" class="tt8">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tt9">
+                                            <input type="text" style="width: 200px;" class="space"
+                                                placeholder="이메일을 입력해주세요">
+                                            <label for="">예시 : chosunok@chosun.net</label>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div class="right_text_box_footer_wrap">
+                                    <p class="right_text_box_footer">예약 시 입력하신 예약번호/이름/연락처/ <br> 이메일을 입력하셔야 예약 확인이
+                                        가능합니다. <br>
+                                        예약자 정보로 예약 조회가 불가능 할 경우, 고객센터로 문의 해주세요.</p>
+                                </div>
+                            </div><button class="close_btn2">X</button>
+                        </div>
+
+                    </div>
+            </li>
+            <li>
+                <p class="popup_open3">고객문의</p>
+                <div class="popup_wrap3">
+                    <div class="popup3">
+                        <p class="popup_top_text3">고객문의</p>
+                        <div class="popup_all_box3">
+                            <div class="left_popup3">
+                                <img src="images/main_picture/inquiry.picture.png" alt="">
+                            </div>
+                            <div class="right_popup3">
+                                <p class="right_popup_min_text3">
+                                    고객문의
+                                <p class="right_popup_min_text4">
+                                    고객의 소리에 항상 귀 기울이겠습니다. 소중한 의견을 들려주세요.
+                                </p>
+                                <div class="lnquiry_text_wrap">
+                                    <p class="lnquiry_text">제목</p>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td class="te1">
+                                            <input type="text" style="width: 250px;" placeholder="">
+                                        </td>
+                                    </tr>
+                                    <div class="lnquiry_text_wrap1">
+                                        <p class="lnquiry_text1">내용</p>
+                                    </div>
+                                    <table>
+                                        <tr>
+                                            <td class="te2">
+                                                <textarea name="" id=""></textarea>
+                                            </td>
+                                        </tr>
+                                        <div class="lnquiry_text_wrap2"><a href="#">
+                                                <p class="lnquiry_text2">문의하기</p>
+                                            </a></div>
+                                        <button class="close_btn4">취소</button>
+                                    </table>
+                                    <div class="footer_text_mbox">
+                                        <p class="footer_mtext">조선옥 한옥 호텔은 고객의 소리에 친절하게 <br> 귀 기울여 감동 서비스로 보답해드리겠습니다.
+                                        </p>
+                                    </div>
+
+                            </div>
+                        </div>
+                        <button class="close_btn3">X</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="wrap">
+            <div class="wrap1">
+                <a href="index.html"><img src="images/main_logo/chosunok_logo.png" alt=""></a>
+            </div>
+            <div class="wrap2">
+                <a href="calendar.html">
+                    <p>예약</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="header_wrap">
+        <div class="header">
+            <ul class="util">
+                <li><a href="#">소개</a>
+                    <div class="submenu_wrap">
+                        <ul class="submenu">
+                            <li>
+                                INTRODUCTION</li>
+                            <li>
+                                <div class="li_text_wrap">
+                                    <a href="introduce.html#origin_wrap">
+                                        <p class="li_text1">유래&소개</p>
+                                    </a>
+                                    <a href="introduce.html#loc_wrap">
+                                        <p class="li_text2">오시는길</p>
+                                    </a>
+                                    <a href="introduce.html#site_map_wrap">
+                                        <p class="li_text3">사이트맵</p>
+                                    </a>
+
+                                </div>
+                            </li>
+
+                </li>
+                <li><a href="introduce.html"><img src="images/main_picture/submenu_intro1.png" alt=""></a></li>
+                <li><a href="introduce.html"><img src="images/main_picture/submenu_intro2.png" alt=""></a></li>
+                <li><a href="introduce.html"><img src="images/main_picture/submenu_intro3.png" alt=""></a></li>
+            </ul>
+        </div>
+        </li>
+        <li><a href="room.html">객실</a>
+            <div class="submenu_wrap">
+                <ul class="submenu">
+                    <li>
+                        ROOM
+                    </li>
+                    <li>
+                        <div class="li_text_wrap1">
+                            <a href="room.html#swiper_sukgulam_wrap">
+                                <p class="li_text5">석굴암</p> </a>
+                           <a href="room.html#swiper_worjungkyo_wrap"><p class="li_text6">월정교</p></a>     
+                           <a href="room.html#swiper_bomunjung_wrap"><p class="li_text7">보문정</p></a>     
+                           <a href="room.html#swiper_posuckjung_wrap"><p class="li_text8">포석정</p></a>     
+                           
+                        </div>
+                    </li>
+                    <li><a href="room.html"><img src="images/main_picture/submenu_room1.png" alt=""></a></li>
+                    <li><a href="room.html"><img src="images/main_picture/submenu_room2.png" alt=""></a></li>
+                    <li><a href="room.html"><img src="images/main_picture/submenu_room3.png" alt=""></a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="restorant.html">식당</a>
+            <div class="submenu_wrap">
+                <ul class="submenu">
+                    <li>
+                        RESTAURANT
+                    </li>
+                    <li>
+                        <div class="li_restorant_wrap">
+                            <a href="restorant.html">
+                                <p class="li_restorant_text1">식당</p>
+                            </a>
+                            <p class="li_restorant_text2">조선옥 한옥 호텔의 <br> 최고의 서비스로 <br> 보답하겠습니다</p>
+                        </div>
+                    </li>
+                    <li><a href="restorant.html"><img src="images/main_picture/submenu_restorant1.png" alt=""></a></li>
+                    <li><a href="restorant.html"><img src="images/main_picture/submenu_restorant2.png" alt=""></a></li>
+                    <li><a href="restorant.html"><img src="images/main_picture/submenu_restorant3.png" alt=""></a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="special.html">편의시설</a>
+            <div class="submenu_wrap">
+                <ul class="submenu">
+                    <li>
+                        SPECIAL
+                    </li>
+                    <li>
+                        <div class="li_text_wrap2">
+                            <a href="special.html#special_yut_wrap">
+                                <p class="li_text9">윷놀이 마당</p> </a>
+                            <a href="special.html#special_songpyeon_wrap"><p class="li_text10">송편 빚기</p></a>    
+                            <a href="special.html#special_hanbok_wrap"><p class="li_text11">한복 체험</p></a>    
+                            <a href="special.html#special_makgulri_wrap"><p class="li_text12">막걸리 시음</p></a>    
+                           
+                        </div>
+                    </li>
+                    <li><a href="special.html"><img src="images/main_picture/submenu_yut.png" alt=""></a></li>
+                    <li><a href="special.html"><img src="images/main_picture/submenu_songpyeon.png" alt=""></a></li>
+                    <li><a href="special.html"><img src="images/main_picture/submenu_makguli.png" alt=""></a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="tour.html">관광지</a>
+            <div class="submenu_wrap">
+                <ul class="submenu">
+                    <li>
+                        TOUR
+                    </li>
+                    <li>
+                        <div class="li_text_wrap3">
+                            <a href="tour.html#special_cheomseongdae_wrap">
+                                <p class="li_text14">첨성대</p> </a>
+                             <a href="tour.html#special_bulguksa_wrap"><p class="li_text15">불국사</p></a>   
+                             <a href="tour.html#special_bomunjung_wrap"><p class="li_text16">보문 관광단지</p></a>   
+                             <a href="tour.html#special_hwangridangil_wrap"><p class="li_text17">황리단길</p></a>   
+                           
+                        </div>
+                    </li>
+                    <li><a href="tour.html"><img src="images/main_picture/submenu_hwanrongwon.png" alt=""></a></li>
+                    <li><a href="tour.html"><img src="images/main_picture/submenu_hwangridangil.png" alt=""></a></li>
+                    <li><a href="tour.html"><img src="images/main_picture/submenu_tenwon.png" alt=""></a></li>
+                </ul>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </div>
+    <div id="introduce_box_wrap">
+        <div class="introduce_box">
+            <p class="introduce_text">INTRODUCE & ORIGIN </p>
+        </div>
+    </div>
+    <div id="origin_wrap">
+        <div class="origin">
+            <div class="origin_all_box">
+                <div class="origin_left_text_box">
+                    <p class="origin_left_text1">천년의 역사를 자랑하는 아름다운 경주 조선옥 한옥 호텔 </p>
+                    <p class="origin_left_text2">천년의 역사가 살아 숨쉬는 경주! <br>
+                        조선옥 한옥 호텔은 편의점과 다양한 체험 마당이 있어 가족들과 연인들이 <br>
+                        힐링하기에 아주 적합한 호텔입니다 <br>
+                        또한 주변에 관광지. 먹거리 등이 가까운 위치에 자리잡고 있습니다. <br>
+                        마치 과거로 돌아간듯한 시간여행 하는 힐링시간을 느껴보세요!
+                    </p>
+                    <p class="origin_left_text3">조선옥의 유래 </p>
+                    <p class="origin_left_text4">한반도의 지역 특성상 4계절이 존재하고 한옥은 겨울을 대비한 <br>
+                        구 들과 여름을 대비한 마루의 결합을 특징하고 있으며 <br>
+                        한옥의 별칭을 따서 조선옥이라고 합니다. </p>
+                </div>
+                <div class="line">
+                </div>
+                <div class="origin_right_text_box">
+                    <p class="origin_right_text1">한옥의 장점 </p>
+                    <p class="origin_right_text2">자연과의조화</p>
+                    <p class="origin_right_text3">한옥을 사랑하셨던 우리 조상들은 자연과의 조화를 매우 중시 하였습니다 <br>
+                        주변의 환경과 어울리는 좌향과 풍수지리를 통해 주변의 환경재료를 통해 <br>
+                        조화를 이루어 내며 지은 집입니다.</p>
+                    <p class="origin_right_text4">곡선의 아름다움</p>
+                    <p class="origin_right_text5">한옥의 지붕은 한옥의 인상을 결정하는 중요한 부분입니다<br>
+                        지붕의 아름다운은 날렵한 곡선에서 나오는데 고전적인 아름다움 <br>
+                        이라고 할수 있습니다.</p>
+                    <p class="origin_right_text6">친환경적인건축</p>
+                    <p class="origin_right_text7">한옥에는 현대 건축에서 생기는 공해가 없습니다 <br>
+                        한옥 건물에 쓰이는 재료들은 재활용이 가능할정도로 친환경적이고 <br>
+                        아파트처럼 독성이 없어서 인간의 몸에 해롭지 않고 좋은 영향을 <br>
+                        미치게 되 심신이 안정됩니다.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="location_wrap">
+        <div class="location">
+            <p class="location_text">LOCATION & SITEMAP </p>
+        </div>
+    </div>
+    <div id="sinra_wrap">
+        <div class="sinra">
+            <p class="sinra_banner_text1">772년 신라의 역사가 살아 숨쉬는 경주 </p>
+            <p class="sinra_banner_text2">조선옥 한옥 호텔은 경주의 핫플레이스인 황리단길 근처에 위치하고 있습니다. <br>
+                첨성대 대릉원등 주변에 즐길거리와 먹거리가 풍부한 <br>
+                경주 관광 중심에 위치 하여 있습니다.</p>
+        </div>
+    </div>
+    <div id="map_wrap"><a href="http://kko.to/AgJSdmRkwg" target="_blank" title="카카오맵 이동">
+            <div class="map">
+                <p class="map_text">조선옥 한옥 호텔</p>
+            </div>
+        </a>
+    </div>
+    <div id="loc_wrap">
+        <div class="loc">
+            <p class="loc_text">도로명주소: 경북 경주시 포석로 0000 조선옥 한옥 호텔</p>
+        </div>
+    </div>
+    <div id="tab_wrap">
+        <div class="tab">
+            <ul class="board">
+                <li>
+                    <a href="introduce.html#loc_wrap">자동차편</a>
+                    <div class="notice">
+                        <p class="n1">자동차편으로<br>오실때</p>
+                        <p class="n2">서울</p>
+                        <p class="n3">---></p>
+                        <p class="n4">경주</p>
+                        <p class="n5">서울시청 출발 기준 약 4시간 10분</p>
+                        <p class="n6">대전</p>
+                        <p class="n7">---></p>
+                        <p class="n8">경주</p>
+                        <p class="n9">대전시청 출발 기준 약 2시간 40분</p>
+                        <p class="n10">광주</p>
+                        <p class="n11">---></p>
+                        <p class="n12">경주</p>
+                        <p class="n13">광주시청 출발 기준 약 3시간 15분</p>
+                        <p class="n14">부산</p>
+                        <p class="n15">---></p>
+                        <p class="n16">경주</p>
+                        <p class="n17">부산시청 출발 기준 약 1시간 15분</p>
+                        <p class="n18">속초</p>
+                        <p class="n19">---></p>
+                        <p class="n20">경주</p>
+                        <p class="n21">속초시청 출발 기준 약 4시간 30분</p>
+                    </div>
+                </li>
+                <li class="on">
+                    <a href="introduce.html#loc_wrap">대중교통편</a>
+                    <div class="galler">
+                        <p class="g1">기차편으로<br>오실때</p>
+                        <p class="g2">수도권</p>
+                        <p class="g3">---></p>
+                        <p class="g4">신경주역</p>
+                        <p class="g5">약2시간(KTX,SRT)</p>
+                        <p class="g6">대전권</p>
+                        <p class="g7">---></p>
+                        <p class="g8">신경주역</p>
+                        <p class="g9">약1시간(KTX,SRT)</p>
+                        <p class="g10">목포권</p>
+                        <p class="g11">---></p>
+                        <p class="g12">신경주역</p>
+                        <p class="g13">약3시간(KTX,SRT)</p>
+                        <p class="g14">신경주역에서<br>오실때</p>
+                        <p class="g15">신경주역</p>
+                        <p class="g16">---></p>
+                        <p class="g17">조선옥 한옥 호텔</p>
+                        <p class="g18">버스</p>
+                        <p class="g19">약 35분 소요 요금 1500원/황남방면 정류장에서 60,61번 버스 탑승 -> <br> 시외버스 터미널 하차</p>
+                        <p class="g20">택시</p>
+                        <p class="g21">약 20분 소요 요금 약 16000원</p>
+                        <p class="g">* 버스편은 시외버스 터미널기준</p>
+                        <p class="g0"> 도보로 20분 거리에 있습니다</p>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="site_map_wrap">
+<div class="site_map">
+
+</div>
+    </div>
+    <div id="footer_wrap">
+        <div class="footer">
+            <div class="footer_all_box">
+                <div class="footer_left">
+                    <p class="footer_text1">Fax: 051-123-4567</p>
+                    <p class="footer_text2">사업자등록번호: 397-12-0000</p>
+                    <p class="footer_text3">통신판매 신고번호: 1234 경주경주-5678</p>
+                    <p class="footer_text4">Tel: 051-123-4567</p>
+                    <p class="footer_text5">Cell: 010-1234-5678</p>
+                    <p class="footer_text6">E-mail: Chosunok@chosun.net</p>
+                    <p class="footer_text7">경북 경주시 포석로 0000 조선옥 한옥 호텔</p>
+                </div>
+                <div class="footer_right">
+                    <img src="images/main_logo/Chosunok_footer_logo .png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
