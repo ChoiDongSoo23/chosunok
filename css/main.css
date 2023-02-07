@@ -50,13 +50,13 @@
 }
 
 body {
-  color: #E6E7E8;
+  color: #fff
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
-  background-color: #E6E7E8;
+  background-color: #e9fcfb;
   font-family: 'Shilla_CultureB-Bold';
 }
 @font-face {
@@ -2107,6 +2107,30 @@ header
   #nav-menu-container {
     display: none;
   }
+ .single-blog .post-tags{
+  text-align: center;
+ }
+ .single-blog .post-tags li:nth-child(3){
+  margin-right: 20px;
+ }
+ .single-blog .post-tags li:nth-child(4){
+  margin-right: 30px;
+ }
+ .on7{
+margin-top: 60px;
+}
+.on8{
+  margin-top: 60px;
+  }
+  .on9{
+    margin-top: 60px;
+    }
+    .on10{
+      margin-top: 60px;
+      }
+      .on11{
+        margin-top: 60px;
+        }
 }
 
 /* Mobile Nav Styling */
@@ -2202,7 +2226,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-gap {
   padding: 120px 0;
-  background-color: #E6E7E8;
+  background-color: #e9fcfb;
 }
 
 .section-title {
@@ -2387,7 +2411,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .video-left {
-  padding: 0 0 130px 95px;
+  padding: 0 0 30px 25px;
   position: relative;
 }
 
@@ -2402,13 +2426,25 @@ margin-bottom: 10px;
   color: #222;
   font-size: 14px;
   font-family: 'Shilla_CultureB-Bold';
-  margin-bottom: 3px;
+  margin-bottom: 10px;
 }
 .on2{
   color: #222;
   font-size: 14px;
   font-family: 'Shilla_CultureB-Bold';
-  margin-bottom: 3px;
+  margin-bottom: 10px;
+}
+.on3{
+  color: #222;
+  font-size: 14px;
+  font-family: 'Shilla_CultureB-Bold';
+  margin-bottom: 10px;
+}
+.on4{
+  color: #222;
+  font-size: 14px;
+  font-family: 'Shilla_CultureB-Bold';
+  margin-bottom: 10px;
 }
 .on7{
   color: #fff;
@@ -2418,7 +2454,7 @@ margin-bottom: 10px;
   padding: 10px;
   position: absolute;
   top: 240px;
-  left: 120px;
+  left: 30px;
 }
 .on8{
   color: #fff;
@@ -2428,7 +2464,7 @@ margin-bottom: 10px;
   padding: 10px;
   position: absolute;
   top: 240px;
-  left: 180px;
+  left:100px;
 }
 .on9{
   color: #fff;
@@ -2438,7 +2474,7 @@ margin-bottom: 10px;
   padding: 10px;
   position: absolute;
   top: 240px;
-  left: 240px;
+  left: 170px;
 }
 .on10{
   color: #fff;
@@ -2448,7 +2484,7 @@ margin-bottom: 10px;
   padding: 10px;
   position: absolute;
   top: 240px;
-  left: 360px;
+  left: 240px;
 }
 .on11{
   color: #fff;
@@ -2458,7 +2494,7 @@ margin-bottom: 10px;
   padding: 10px;
   position: absolute;
   top: 240px;
-  left: 300px;
+  left: 310px;
 }
 .video-left h1 {
   padding-bottom: 20px;
@@ -2476,7 +2512,7 @@ margin-bottom: 10px;
 }
 
 .video-right {
-  background: url(../img/video-bg.jpg) no-repeat center;
+  background: url(../img/cam.jpg) no-repeat center;
   background-size: cover;
   height: 350px;
   border-radius: 10px;
@@ -2484,7 +2520,6 @@ margin-bottom: 10px;
 
 .video-right .overlay-bg {
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.78);
 }
 
 .video-right .play-btn {
@@ -2572,11 +2607,11 @@ margin-bottom: 10px;
 
 .single-blog .post-tags li {
   font-size: 12px;
-  margin: 20px 35px;
+  margin: 20px 20px;
   display: inline-block;
   border: 1px solid #eee;
   border-radius: 20px;
-  padding: 4px 20px;
+  padding: 4px 22px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
