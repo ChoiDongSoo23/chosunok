@@ -2512,7 +2512,7 @@ margin-bottom: 10px;
 }
 
 .video-right {
-  background: url(../img/cam.jpg) no-repeat center;
+  background: url(../img/impossible.jpg) no-repeat center;
   background-size: cover;
   height: 350px;
   border-radius: 10px;
@@ -2602,7 +2602,10 @@ margin-bottom: 10px;
 }
 
 .single-blog img {
-  border-radius: 10px;
+  border-radius: 200px;
+  width: 350px;
+  height: 350px;
+  margin-left: 92px;
 }
 
 .single-blog .post-tags li {
