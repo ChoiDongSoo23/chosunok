@@ -2107,6 +2107,9 @@ header
   #nav-menu-container {
     display: none;
   }
+  .single-blog img{
+ display: none;
+  }
  .single-blog .post-tags{
   text-align: center;
  }
@@ -2512,7 +2515,7 @@ margin-bottom: 10px;
 }
 
 .video-right {
-  background: url(../img/impossible.jpg) no-repeat center;
+  background: url(../img/imposible.jpg) no-repeat center;
   background-size: cover;
   height: 350px;
   border-radius: 10px;
@@ -2884,4 +2887,5 @@ margin-bottom: 10px;
 
 
 .row {/*가운데 정렬*/
-  justify-content: center;}
+  justify-content: center;
+}
