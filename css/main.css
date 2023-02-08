@@ -57,7 +57,12 @@ body {
   line-height: 1.625em;
   position: relative;
   background-color: #e9fcfb;
-  font-family: 'Shilla_CultureB-Bold';
+  font-family: 'Nanum Gothic', sans-serif;
+}
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.nanumgothic * {
+ font-family: 'Nanum Gothic', sans-serif;
 }
 @font-face {
   font-family: 'Shilla_CultureB-Bold';
@@ -72,7 +77,7 @@ body {
   font-style: normal;
 }
 .h6{
-  font-family: 'Shilla_CultureB-Bold';
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 ol, ul {
@@ -89,7 +94,7 @@ figure {
   margin: 0;
 }
 .container h1{
-  font-family: 'NanumSquareNeo-Variable';
+  font-family: 'Nanum Gothic', sans-serif;
 }
 a {
   -webkit-transition: all 0.3s ease 0s;
@@ -1905,7 +1910,7 @@ header
 }
 
 #header.header-scrolled {
-  background: rgba(19, 111, 239, 0.8);
+  background: #336192cc;
   transition: all 0.5s;
 }
 
@@ -2107,9 +2112,7 @@ header
   #nav-menu-container {
     display: none;
   }
-  .single-blog img{
- display: none;
-  }
+
  .single-blog .post-tags{
   text-align: center;
  }
@@ -2120,19 +2123,19 @@ header
   margin-right: 30px;
  }
  .on7{
-margin-top: 60px;
+margin-top: 100px;
 }
 .on8{
-  margin-top: 60px;
+  margin-top: 100px;
   }
   .on9{
-    margin-top: 60px;
+    margin-top: 100px;
     }
     .on10{
-      margin-top: 60px;
+      margin-top: 100px;
       }
       .on11{
-        margin-top: 60px;
+        margin-top: 100px;
         }
 }
 
@@ -2428,25 +2431,25 @@ margin-bottom: 10px;
 .on1{
   color: #222;
   font-size: 14px;
-  font-family: 'Shilla_CultureB-Bold';
+  font-family: 'Nanum Gothic', sans-serif;
   margin-bottom: 10px;
 }
 .on2{
   color: #222;
   font-size: 14px;
-  font-family: 'Shilla_CultureB-Bold';
+  font-family: 'Nanum Gothic', sans-serif;
   margin-bottom: 10px;
 }
 .on3{
   color: #222;
   font-size: 14px;
-  font-family: 'Shilla_CultureB-Bold';
+  font-family: 'Nanum Gothic', sans-serif;
   margin-bottom: 10px;
 }
 .on4{
   color: #222;
   font-size: 14px;
-  font-family: 'Shilla_CultureB-Bold';
+  font-family: 'Nanum Gothic', sans-serif;
   margin-bottom: 10px;
 }
 .on7{
@@ -2458,6 +2461,7 @@ margin-bottom: 10px;
   position: absolute;
   top: 240px;
   left: 30px;
+  font-family: 'Shilla_CultureB-Bold';
 }
 .on8{
   color: #fff;
@@ -2468,6 +2472,7 @@ margin-bottom: 10px;
   position: absolute;
   top: 240px;
   left:100px;
+  font-family: 'Shilla_CultureB-Bold';
 }
 .on9{
   color: #fff;
@@ -2478,6 +2483,7 @@ margin-bottom: 10px;
   position: absolute;
   top: 240px;
   left: 170px;
+  font-family: 'Shilla_CultureB-Bold';
 }
 .on10{
   color: #fff;
@@ -2488,6 +2494,7 @@ margin-bottom: 10px;
   position: absolute;
   top: 240px;
   left: 240px;
+  font-family: 'Shilla_CultureB-Bold';
 }
 .on11{
   color: #fff;
@@ -2498,6 +2505,7 @@ margin-bottom: 10px;
   position: absolute;
   top: 240px;
   left: 310px;
+  font-family: 'Shilla_CultureB-Bold';
 }
 .video-left h1 {
   padding-bottom: 20px;
@@ -2515,7 +2523,7 @@ margin-bottom: 10px;
 }
 
 .video-right {
-  background: url(../img/possible.jpg) no-repeat center;
+  background: url(../img/dongsoo_p.png) no-repeat center;
   background-size: cover;
   height: 350px;
   border-radius: 10px;
@@ -2605,10 +2613,9 @@ margin-bottom: 10px;
 }
 
 .single-blog img {
-  border-radius: 200px;
-  width: 350px;
-  height: 350px;
-  margin-left: 92px;
+  border-radius: 10px;
+  width: 540px;
+  height: 310px;
 }
 
 .single-blog .post-tags li {
@@ -2617,7 +2624,7 @@ margin-bottom: 10px;
   display: inline-block;
   border: 1px solid #eee;
   border-radius: 20px;
-  padding: 4px 22px;
+  padding: 4px 20px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2660,7 +2667,7 @@ margin-bottom: 10px;
 .footer-area {text-align: center;
   color: #fff;
   /* padding-top: 220px; */
-  background: url(../img/footer-bg.jpg) center;
+  background-color: #336192cc;
   background-size: cover;
 }
 
