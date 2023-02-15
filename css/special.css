@@ -291,7 +291,19 @@ body.has-topBanner .billboard-hero {
     }
 
 
-
+    div img{
+        margin:0 auto;
+        display: block;
+      }
+      .fixed{
+        position: fixed;
+        right:100px;
+        bottom:110px;
+      }
+      .fixed:hover{
+        opacity:0.8;
+      }
+     
 
 #top{
     margin: 0 auto;
